@@ -235,3 +235,51 @@ body{
 
 /* SOBRE */
 
+.sobre{
+    background: #0f5b35;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px 10px;
+}
+
+.sobre h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.texto-topo{
+    text-align: center;
+    font-size: 18px; /* <--- mudei de 20px para 18px*/
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.imagem img{
+    width: 320px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.texto-lateral{
+    max-width: 530px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.texto-lateral p{
+    margin-bottom: 14px;
+}
+
+/* Contato */
