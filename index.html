@@ -1,4 +1,3 @@
-    
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -17,16 +16,16 @@
             <span></span>
         </div> 
         <nav class="menu" id="menu"> 
-            <a href="#">Home</a>
-            <a href="#">Cardápio</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contato</a>
+            <a href="#hero">Home</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
         </nav>
     </header>
     <div class="overlay-menu" id="overlay"></div>
 
     <!-- HERO -->
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="overlay">
             <div class="hero-text">
                 <h2>A melhor indústria<br>de pizza do<br>Brasil</h2>
@@ -57,7 +56,7 @@
         </div> <!-- fecha aqui-->
     </section>
 
-    <section class="cardapio">
+    <section class="cardapio" id="cardapio">
         <h2>Cardápio</h2>
         <div class="lista">
             <ul data-title="🍕 Tradicional ">
@@ -90,22 +89,38 @@
         </div>
     </section>
 
-    <section class="sobre">
-        <div class="conteudo">
+    <section class="sobre" id="sobre">
+        
             <h2>Sobre Nós</h2>
             
-            <img src="" alt="pizza">
-            <div class="texto">
+            <p class="texto-topo">Na Pizza FIEP, acreditamos que boas histórias começam ao redor de uma mesa. 
+            Nosso espaço nasceu com a ideia de unir pessoas, sabores e momentos especiais em um 
+            ambiente acolhedor, inspirado nas tradicionais pizzarias italianas.</p>
+            
+        <div class="conteudo">
+            <div >
+                <img src="./pizza.png" alt="pizza">
+            </div>
+                
+            <div class="texto-lateral">
                 <p>
-                    Na Pizza FIEP, acreditamos que boas histórias começam ao redor de uma mesa. Nosso espaço nasceu com a ideia de unir pessoas, sabores e momentos especiais em um ambiente acolhedor, inspirado nas tradicionais pizzarias italianas.
-                    <br>Tudo começa com ingredientes selecionados, massa preparada com cuidado e o aroma irresistível que sai do forno a lenha. Cada pizza é feita com dedicação, respeitando a tradição, mas também trazendo um toque de criatividade que torna cada experiência única.
-                    <br>Mais do que servir pizzas, queremos criar memórias. Seja em um encontro entre amigos, uma pausa depois de um dia de trabalho ou uma comemoração especial, a Pizza FIEP é um lugar para compartilhar, conversar e aproveitar o melhor da boa comida.
+                    Tudo começa com ingredientes selecionados, massa preparada com cuid ado e o aroma 
+                    irresistível que sai do forno a lenha. Cada pizza é feita com dedicação, 
+                    respeitando a tradição, mas também trazendo um toque de criatividade que torna 
+                    cada experiência única.</p>
+                <p>
+                    Mais do que servir pizzas, queremos criar memórias. Seja em um encontro entre 
+                    amigos, uma pausa depois de um dia de trabalho ou uma comemoração especial, a 
+                    Pizza FIEP é um lugar para compartilhar, conversar e aproveitar o melhor da boa 
+                    comida.
                 </p>
             </div>
         </div>
+           
+        
     </section>
 
-    <section class="contato">
+    <section class="contato" id="contato">
         <h2>Entre em Contato</h2>
         <div>
             <!-- mapa -->
